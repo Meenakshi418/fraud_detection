@@ -1,0 +1,25 @@
+.stApp {
+  background: linear-gradient(180deg, #f7f9fc 0%, #ffffff 360px);
+}
+
+.block-container {
+  max-width: 1120px;
+  padding-top: 2.2rem;
+  padding-bottom: 3rem;
+}
+
+.result-badge {
+  display: inline-block;
+  padding: 0.42rem 0.85rem;
+  margin: 0.1rem 0 0.8rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 999px;
+  background: #f8fafc;
+  color: #172554;
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+[data-testid="stVerticalBlockBorderWrapper"] {
+  background: rgba(255, 255, 255, 0.92);
+}
